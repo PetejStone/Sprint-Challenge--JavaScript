@@ -164,7 +164,7 @@ const lowerPopulation = [];
 const result = zooAnimals.filter(animal =>  animal.population < 5);
 
 lowerPopulation.push(result);
-console.log(lowerPopulation);
+console.log(result);
 
 /* Request 4: .reduce()
 
